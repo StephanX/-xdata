@@ -1,0 +1,200 @@
+UNIVERSAL_CAMPAIGN_TEMPLATE
+
+CAMPAIGN
+name: <campaign_name>
+act: <act_number>
+season: <season>
+time_state: <time_of_day>
+current_location: <region / settlement / district>
+
+PLAYER_CHARACTER
+name: <character_name>
+species: <species>
+age: <age>
+background_role: <profession_or_origin>
+titles: <optional_titles>
+
+BACKGROUND_DISTINCTIONS
+- <notable_history>
+- <training_or_origin_detail>
+
+BODY_CONDITION
+status: <healthy / injured / recovering>
+
+conditions:
+- <injury_or_condition>
+
+body_state:
+pain_level: <none / mild / moderate / severe>
+mobility: <restricted / functional / full>
+travel_capacity: <restricted / functional / full>
+combat_endurance: <reduced / normal>
+risk_factors:
+- <specific_risk>
+
+CURRENCY
+gold: <amount>
+silver: <amount>
+other: <currency_type_if_any>
+
+HELD_FUNDS
+- purpose: <organization_or_person>
+amount: <value>
+
+EQUIPMENT
+primary_weapons:
+- <weapon>
+
+secondary_weapons:
+- <weapon>
+
+armor:
+- <armor_type>
+
+utility_items:
+- <item>
+- <item>
+- <item>
+
+SPECIAL_GEAR
+<gear_name>
+coverage: <body_area>
+construction: <material_or_design>
+design_purpose: <intended_use>
+
+markings:
+- <symbol_or_enchantment>
+- <symbol_or_enchantment>
+
+special_properties:
+- <property>
+- <property>
+
+observed_alignment:
+- <energy_or_effect>
+- <energy_or_effect>
+
+ABILITIES
+ability_1
+- name: <ability_name>
+functions:
+- <effect>
+- <effect>
+
+mastery_state: <stable / experimental / developing>
+
+TRAVEL_RESOURCES
+mounts:
+- <mount>
+
+pack_animals:
+- <animal>
+
+vehicles:
+<vehicle_name>
+pull_animal: <animal_type>
+status: <operational / damaged / under_repair>
+location: <location>
+upgrade_pending:
+- <upgrade>
+
+HOME_BASE
+name: <base_location>
+
+logistics:
+- mounts_available: <number>
+- storage: <description>
+- transport_assets: <description>
+
+CORE_NPCS
+- <npc_name>: <role>
+- <npc_name>: <role>
+- <npc_name>: <role>
+
+RELATIONSHIP_STATE
+<Character> → <NPC>: <relationship>
+<Character> → <NPC>: <relationship>
+
+INTERNAL_NETWORK
+- <NPC> ↔ <NPC>: <relationship>
+- <NPC> ↔ <NPC>: <relationship>
+
+MAJOR_EVENTS
+1. <event>
+2. <event>
+3. <event>
+
+CURRENT_SETTLEMENT
+name: <city_or_region>
+
+authority_presence:
+- <authority_or_faction>
+
+local_activity:
+- <investigation>
+- <trade>
+- <travel>
+
+ACTIVE_OBJECTIVES
+- <objective>
+- <objective>
+- <objective>
+
+RESOURCE_PURCHASES
+planned_supplies:
+- <supply>
+- <supply>
+- <supply>
+
+EQUIPMENT_INTEREST
+<craft_or_purchase>
+
+desired_design:
+- protection_area: <coverage>
+- materials: <materials>
+- mobility_requirements: <mobility_style>
+- compatibility:
+- <equipment_interaction>
+
+COMBAT_STYLE
+primary_style: <melee / ranged / mixed>
+
+weapon_preference:
+- <weapon>
+
+carry_method:
+- <draw_style>
+
+combat_priorities:
+- <mobility>
+- <defense>
+- <damage>
+- <control>
+
+FACTION_STRUCTURE
+faction_name: <organization>
+
+member_count: <number>
+
+structure:
+- <how_members_operate>
+
+distribution:
+- <centralized / dispersed>
+
+WORLD_EVENTS
+- <event>
+- <event>
+
+CURRENT_SCENE
+location_context:
+- <where_character_is>
+
+recent_action:
+- <last_event>
+
+SCENE_RULES
+- continue_world_simulation
+- do_not_suggest_player_actions
+- surface_world_events_only_when_relevant
+```
